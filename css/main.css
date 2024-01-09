@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(black, rgb(98, 98, 98));
+ /*idea for linear gradient from w3 schools*/
+}
+
+/* Header and Nav styles next*/
+header{
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+    color: whitesmoke;
+}
+
+header nav ul {
+    display:flex;
+    justify-content:right;
+
+}
+
+header nav ul li {
+    margin: 0 10px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.header-content {
+    text-align: center;
+    padding: 15px 0;
+    text-shadow: 2px 2px 4px black;
+
+}
+.header-content img {
+    width: 10%;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    /*border radius looks good thanks W3 schools*/
+}
+
+#about {
+    background-color: gray;
+}
+#about h2 {
+    text-shadow: 2px 2px 4px rgb(177, 177, 177);
+}
+
+#work {
+    background-color: gray;
+    flex-direction: column;
+}
+#work h2 {
+    text-shadow: 2px 2px 4px rgb(177, 177, 177);
+}
+
+#projects {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    
+    justify-content: space-evenly;
+
+}
+
+#projects a{
+    display: flex;
+    justify-content: center;
+}
+
+#projects a img {
+    width: 500px;
+
+}
+
+#contact {
+    background-color: gray;
+}
+#contact h2 {
+    text-shadow: 2px 2px 4px rgb(177, 177, 177);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: whitesmoke;
+}
+
+/*dont forget media queries go here, dont forget to ask for help*/
+
